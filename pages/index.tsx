@@ -1,9 +1,14 @@
-import { Text } from '@chakra-ui/react'
+import Box from 'src/components/atoms/Box'
+import Button from 'src/components/atoms/Button'
+import Typography from 'src/components/atoms/Typography'
 
 export default function Home() {
   return (
-    <Text color={'primary.main'}>
-      APROVEITE as promoções DE VIAGEM PARA CONHECER O BRASIL
-    </Text>
+    <Box bgColor={'red'}>
+      <Typography variant="h1">
+        APROVEITE as promoções DE VIAGEM PARA CONHECER O BRASIL
+      </Typography>
+      <Button variant={'primary'}>Hello</Button>
+    </Box>
   )
 }
