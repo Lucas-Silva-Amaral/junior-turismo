@@ -17,4 +17,5 @@ export const theme = extendTheme({
     Text,
     Button,
   },
-}) as Theme
+  // eslint-disable-next-line @typescript-eslint/ban-types
+} as Theme | {})
